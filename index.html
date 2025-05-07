@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bartender Profissional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Header -->
+  <header class="bg-black text-white p-6 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Bartender João</h1>
+      <nav class="space-x-4">
+        <a href="#sobre" class="hover:text-yellow-400">Sobre</a>
+        <a href="#servicos" class="hover:text-yellow-400">Serviços</a>
+        <a href="#contato" class="hover:text-yellow-400">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1514361892635-e7f1a5f7b4c7');">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4 bg-black bg-opacity-50 inline-block px-4 py-2 rounded">Drinks Inesquecíveis</h2>
+    <p class="text-lg bg-black bg-opacity-40 inline-block px-4 py-2 rounded">Transforme seu evento com coquetelaria de alto nível.</p>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-16 px-6 md:px-16 bg-gray-800">
+    <h3 class="text-3xl font-bold mb-4">Sobre Mim</h3>
+    <p class="text-gray-300 text-lg">
+      Sou bartender com mais de 10 anos de experiência em eventos, bares e casamentos. Especialista em coquetelaria clássica e autoral, levo sabor, estilo e profissionalismo para seu evento.
+    </p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-16 px-6 md:px-16">
+    <h3 class="text-3xl font-bold mb-8 text-center">Serviços</h3>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-gray-800 p-6 rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Eventos Corporativos</h4>
+        <p>Drinks personalizados para impressionar seus convidados.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Casamentos</h4>
+        <p>Serviço completo com cardápio exclusivo para o grande dia.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Aulas e Workshops</h4>
+        <p>Ensino técnicas e receitas para apaixonados por drinks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-6 md:px-16 bg-gray-800">
+    <h3 class="text-3xl font-bold mb-6 text-center">Contato</h3>
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Seu nome" class="w-full p-3 rounded bg-gray-700 text-white" />
+      <input type="email" placeholder="Seu email" class="w-full p-3 rounded bg-gray-700 text-white" />
+      <textarea placeholder="Sua mensagem" rows="5" class="w-full p-3 rounded bg-gray-700 text-white"></textarea>
+      <button type="submit" class="bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-3 rounded font-bold">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-black text-center py-4 mt-12 text-sm text-gray-400">
+    &copy; 2025 Bartender João. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
